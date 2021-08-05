@@ -4,6 +4,7 @@ const btn_toggle = document.querySelector("#toggle");
 const length = document.getElementById('length')
 const color = document.querySelector('#color')
 const reset = document.querySelector('#reset')
+const text = document.querySelector('#text')
 
 // define more constants and variables here
 
@@ -24,4 +25,5 @@ btn_toggle.onclick = () => {
 reset.onclick = () => {
   length.value = 5
   color.value = "#FF0000"
+  text.style.color = "black"
 }
